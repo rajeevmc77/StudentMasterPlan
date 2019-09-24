@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="6" x="11" y="5" width="768" measuredWidth="768" measuredHeight="60">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Navigation.screen#Navbar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="6">
+        <object xsi:type="model:WidgetGroup" id="2006" width="768">
+          <widgets xsi:type="model:Panel" id="9225" width="768" height="60" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+          <widgets xsi:type="model:Label" id="9226" x="38" y="6" text="Student Master Plan" layoutParams="anchor-left|anchor-middle">
+            <font size="18px"/>
+          </widgets>
+          <widgets xsi:type="model:TextField" id="9227" x="358" y="9" width="145" text="~Search~" layoutParams="anchor-left|anchor-middle" skin="../assets/Bootstrap/_text-input.svg">
+            <font size="14px"/>
+          </widgets>
+          <widgets xsi:type="model:Icon" id="9228" y="4" width="25" icon="assets/gl-user (large)"/>
+          <widgets xsi:type="model:Icon" id="9229" x="505" y="8" width="25" icon="find (large)"/>
+          <widgets xsi:type="model:Label" id="9230" x="584" y="13" width="142" text="Welcome Sh Krishna" textAlignment="Center" icon="user (small)">
+            <font size="12px"/>
+          </widgets>
+          <widgets xsi:type="model:Icon" id="9231" x="727" y="8" width="25" icon="desc (large)"/>
+          <widgets xsi:type="model:Icon" id="9232" x="540" y="7" width="35" icon="bell (large)"/>
+          <widgets xsi:type="model:WidgetGroup" id="9233" x="125" y="27">
+            <widgets xsi:type="model:Breadcrumbs" id="9234" text="Home,Settings,Skill Group">
+              <font/>
+              <items text="Home"/>
+              <items text="Settings"/>
+              <items link="Admin%20Settings%20Skill%20Group%20List.screen" text="Skill Group"/>
+            </widgets>
+          </widgets>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="25"/>
+      <widgetChanges xsi:type="o:Delete" ref="24"/>
+      <widgetChanges xsi:type="o:Delete" ref="28"/>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="20"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2298" x="11" y="58" width="127" height="368" measuredWidth="127" measuredHeight="368"/>
+  <widgets xsi:type="model:Icon" id="3181" x="14" y="72" width="28" height="27" measuredWidth="28" measuredHeight="27" icon="table (large)"/>
+  <widgets xsi:type="model:Label" id="3185" x="46" y="73" text="Dashboard" measuredWidth="65" measuredHeight="23" link="Admin%20Dashboard.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="4643" x="137" y="61" width="642" height="365" measuredWidth="642" measuredHeight="365"/>
+  <widgets xsi:type="model:Icon" id="8954" x="13" y="111" width="26" height="26" measuredWidth="26" measuredHeight="26" icon="options (large)"/>
+  <widgets xsi:type="model:Table" id="8955" x="40" y="109" height="132" text="[-] Settings&#xA;  [+] [Skill Group]&#xA;  " measuredWidth="94" measuredHeight="132" alternative="#eee" verticalLines="false" header="false">
+    <font/>
+    <items link="Admin%20Settings%20Skill%20Group%20List.screen" x="30" y="25" width="58" height="16" text="Skill Group"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9163" x="160" y="81" width="161" text="Skill List" measuredWidth="161" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="9164" x="184" y="109" width="438" text="(w:50).Group ID,(w:150)=. Skill  v,(w:50). Class(s),(w:40)=. Skill Group v, (align:center). Actions  [{circled-plus}] [{find}]&#xA;1,(align:left).Listening \n  ശ്രദ്ധയോടെ കേൾക്കുക ,1-4, Literacy ,[{edit}]   [{circled-minus}]&#xA;2,(align:left).Speaking \n  സംസാരിക്കുക,1-4, Literacy,[{edit}]   [{circled-minus}]&#xA;" measuredWidth="438" measuredHeight="100" alternative="#eee">
+    <font/>
+    <items x="399" y="3" width="16" height="16" text=" "/>
+    <items x="418" y="3" width="16" height="16" text=" "/>
+    <items x="373" y="32" width="16" height="16" text=" "/>
+    <items x="398" y="32" width="16" height="16" text=" "/>
+    <items x="373" y="69" width="16" height="16" text=" "/>
+    <items x="398" y="69" width="16" height="16" text=" "/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

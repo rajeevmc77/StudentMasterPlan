@@ -5,26 +5,26 @@
     <overrides>
       <widgetChanges xsi:type="o:Insert" newIndex="6">
         <object xsi:type="model:WidgetGroup" id="2006" width="768">
-          <widgets xsi:type="model:Panel" id="9225" width="768" height="60" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
-          <widgets xsi:type="model:Label" id="9226" x="38" y="6" text="Student Master Plan" layoutParams="anchor-left|anchor-middle">
+          <widgets xsi:type="model:Panel" id="9301" width="768" height="60" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+          <widgets xsi:type="model:Label" id="9302" x="38" y="6" text="Student Master Plan" layoutParams="anchor-left|anchor-middle">
             <font size="18px"/>
           </widgets>
-          <widgets xsi:type="model:TextField" id="9227" x="358" y="9" width="145" text="~Search~" layoutParams="anchor-left|anchor-middle" skin="../assets/Bootstrap/_text-input.svg">
+          <widgets xsi:type="model:TextField" id="9303" x="358" y="9" width="145" text="~Search~" layoutParams="anchor-left|anchor-middle" skin="../assets/Bootstrap/_text-input.svg">
             <font size="14px"/>
           </widgets>
-          <widgets xsi:type="model:Icon" id="9228" y="4" width="25" icon="assets/gl-user (large)"/>
-          <widgets xsi:type="model:Icon" id="9229" x="505" y="8" width="25" icon="find (large)"/>
-          <widgets xsi:type="model:Label" id="9230" x="584" y="13" width="142" text="Welcome Sh Krishna" textAlignment="Center" icon="user (small)">
+          <widgets xsi:type="model:Icon" id="9304" y="4" width="25" icon="assets/gl-user (large)"/>
+          <widgets xsi:type="model:Icon" id="9305" x="505" y="8" width="25" icon="find (large)"/>
+          <widgets xsi:type="model:Label" id="9306" x="584" y="13" width="142" text="Welcome Sh Krishna" textAlignment="Center" icon="user (small)">
             <font size="12px"/>
           </widgets>
-          <widgets xsi:type="model:Icon" id="9231" x="727" y="8" width="25" icon="desc (large)"/>
-          <widgets xsi:type="model:Icon" id="9232" x="540" y="7" width="35" icon="bell (large)"/>
-          <widgets xsi:type="model:WidgetGroup" id="9233" x="125" y="27">
-            <widgets xsi:type="model:Breadcrumbs" id="9234" text="Home,Settings,Skill Group">
+          <widgets xsi:type="model:Icon" id="9307" x="727" y="8" width="25" icon="desc (large)"/>
+          <widgets xsi:type="model:Icon" id="9308" x="540" y="7" width="35" icon="bell (large)"/>
+          <widgets xsi:type="model:WidgetGroup" id="9309" x="125" y="27">
+            <widgets xsi:type="model:Breadcrumbs" id="9310" text="Home,Settings,Skill ">
               <font/>
               <items text="Home"/>
               <items text="Settings"/>
-              <items link="Admin%20Settings%20Skill%20Group%20List.screen" text="Skill Group"/>
+              <items link="Admin%20Settings%20Skill%20List.screen" text="Skill "/>
             </widgets>
           </widgets>
         </object>
@@ -44,53 +44,79 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="4643" x="137" y="61" width="642" height="365" measuredWidth="642" measuredHeight="365"/>
   <widgets xsi:type="model:Icon" id="8954" x="13" y="111" width="26" height="26" measuredWidth="26" measuredHeight="26" icon="options (large)"/>
-  <widgets xsi:type="model:Table" id="8955" x="40" y="109" height="132" text="[-] Settings&#xA;  [+] [Skill Group]&#xA;  " measuredWidth="94" measuredHeight="132" alternative="#eee" verticalLines="false" header="false">
+  <widgets xsi:type="model:Table" id="8955" x="40" y="109" height="132" text="[-] Settings&#xA;  [+] [Skill Group]&#xA;  [+] [Skill]&#xA;  " measuredWidth="94" measuredHeight="132" alternative="#eee" verticalLines="false" header="false">
     <font/>
     <items link="Admin%20Settings%20Skill%20Group%20List.screen" x="30" y="25" width="58" height="16" text="Skill Group"/>
+    <items link="Admin%20Settings%20Skill%20List.screen" x="30" y="47" width="21" height="16" text="Skill"/>
   </widgets>
   <widgets xsi:type="model:Label" id="9163" x="160" y="81" width="161" text="Skill List" measuredWidth="161" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Table" id="9164" x="184" y="109" width="438" text="(w:50).Group ID,(w:150)=. Skill  v,(w:50). Class(s),(w:40)=. Skill Group v, (align:center). Actions  [{circled-plus}] [{find}]&#xA;1,(align:left).Listening \n  ശ്രദ്ധയോടെ കേൾക്കുക ,1-4, Literacy ,[{edit}]   [{circled-minus}]&#xA;2,(align:left).Speaking \n  സംസാരിക്കുക,1-4, Literacy,[{edit}]   [{circled-minus}]&#xA;" measuredWidth="438" measuredHeight="100" alternative="#eee">
+  <widgets xsi:type="model:Table" id="9247" x="149" y="111" width="617" text="(w:50).Group ID,(w:120)=. Skill  v,Evaluation Points ,(w:50). Class(s),(w:40)=. Skill Group v, (align:center). Actions  [{circled-plus}] [{find}]&#xA;1,(align:left).Listening \n  ശ്രദ്ധയോടെ കേൾക്കുക ,1. Listen Carefully  and respond[...]\n2. Partial listen[...] \n3. Not able to listen[...],1-4, Literacy ,[{edit}]   [{circled-minus}]&#xA;2,(align:left).Speaking \n  സംസാരിക്കുക,1. Speak spontaniously [...]\n2. Partially speak[...] \n3. Not able to speak[...],1-4, Literacy,[{edit}]   [{circled-minus}]&#xA;" measuredWidth="617" measuredHeight="128" alternative="#eee">
     <font/>
-    <items x="399" y="3" width="16" height="16" text=" "/>
-    <items x="418" y="3" width="16" height="16" text=" "/>
-    <items x="373" y="32" width="16" height="16" text=" "/>
-    <items x="398" y="32" width="16" height="16" text=" "/>
-    <items x="373" y="69" width="16" height="16" text=" "/>
-    <items x="398" y="69" width="16" height="16" text=" "/>
+    <items x="575" y="3" width="16" height="16" text=" "/>
+    <items x="594" y="3" width="16" height="16" text=" "/>
+    <items x="363" y="25" width="9" height="15" text="..."/>
+    <items x="272" y="40" width="9" height="15" text="..."/>
+    <items x="299" y="55" width="9" height="15" text="..."/>
+    <items x="549" y="39" width="16" height="16" text=" "/>
+    <items x="574" y="39" width="16" height="16" text=" "/>
+    <items x="317" y="76" width="9" height="15" text="..."/>
+    <items x="282" y="91" width="9" height="15" text="..."/>
+    <items x="300" y="106" width="9" height="15" text="..."/>
+    <items x="549" y="90" width="16" height="16" text=" "/>
+    <items x="574" y="90" width="16" height="16" text=" "/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="9235" x="296" y="157" measuredWidth="289" measuredHeight="169">
-    <widgets xsi:type="model:Window" id="9236" width="289" height="169" text="Create Skill " measuredWidth="289" measuredHeight="169"/>
-    <widgets xsi:type="model:Combo" id="9237" x="110" y="64" width="95" text="മലയാളം " measuredWidth="95" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="9238" x="27" y="64" width="134" text="Medium                         " measuredWidth="134" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="9239" x="27" y="92" text="Class(s)" measuredWidth="45" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Combo" id="9240" x="110" y="92" width="59" text="1-4" measuredWidth="59" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="9241" x="28" y="39" width="134" text="Group Name" measuredWidth="134" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:TextField" id="9242" x="110" y="36" width="155" text="ഗണിതം" measuredWidth="155" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Button" id="9243" x="204" y="121" text="{circled-plus} More" measuredWidth="68" measuredHeight="26">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Button" id="9244" x="72" y="121" text="Cancel{delete}" measuredWidth="72" measuredHeight="26" link="Admin%20Settings%20Skill%20Group%20List.screen">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Button" id="9245" x="142" y="121" text="Save{save} " measuredWidth="64" measuredHeight="26" link="Admin%20Settings%20Skill%20Group%20List.screen">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Button" id="9246" x="208" y="62" text="{circled-plus} Lang." measuredWidth="68" measuredHeight="26" link="Admin%20Settings%20Skill%20Group%20Create%20Add%20Language.screen">
-      <font/>
+  <widgets xsi:type="model:WidgetGroup" id="9248" x="294" y="147" height="226" measuredWidth="393" measuredHeight="258">
+    <widgets xsi:type="model:WidgetGroup" id="9270" measuredWidth="393" measuredHeight="258">
+      <widgets xsi:type="model:WidgetGroup" id="9269" measuredWidth="393" measuredHeight="258">
+        <widgets xsi:type="model:Window" id="9249" width="393" height="258" text="Create Skill " measuredWidth="393" measuredHeight="258"/>
+        <widgets xsi:type="model:Combo" id="9250" x="106" y="54" width="137" text="മലയാളം " measuredWidth="137" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="9251" x="32" y="54" width="51" text="Medium                         " measuredWidth="51" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="9252" x="26" y="30" width="342" text="Class(s) 1-4  , Skill Group Literacy" measuredWidth="342" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="9254" x="34" y="85" width="73" text="Skill" measuredWidth="73" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:TextField" id="9255" x="106" y="85" width="250" text="ശ്രദ്ധയോടെ കേൾക്കുക" measuredWidth="250" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Button" id="9256" x="263" y="216" width="98" text="{circled-plus} More" measuredWidth="98" measuredHeight="26" link="">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Button" id="9257" x="72" y="216" width="103" text="Cancel{delete}" measuredWidth="103" measuredHeight="26" link="Admin%20Settings%20Skill%20List.screen">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Button" id="9258" x="173" y="216" width="92" text="Save{save} " measuredWidth="92" measuredHeight="26" link="Admin%20Settings%20Skill%20List.screen">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Button" id="9259" x="258" y="53" width="98" text="{circled-plus} Lang." measuredWidth="98" measuredHeight="26">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="9261" x="34" y="117" width="73" text="Level 1" measuredWidth="73" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:TextField" id="9262" x="106" y="117" width="250" text=" Listen Carefully  and respond ..." measuredWidth="250" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="9263" x="35" y="147" width="73" text="Level 2" measuredWidth="73" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:TextField" id="9264" x="107" y="147" width="250" text="Partial listen ..." measuredWidth="250" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="9265" x="36" y="180" width="73" text="Level 3" measuredWidth="73" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:TextField" id="9266" x="108" y="180" width="250" text="Not able to listen ..." measuredWidth="250" measuredHeight="23">
+          <font/>
+        </widgets>
+      </widgets>
     </widgets>
   </widgets>
   <hRuler/>

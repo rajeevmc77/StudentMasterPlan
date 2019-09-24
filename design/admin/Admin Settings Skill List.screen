@@ -51,14 +51,20 @@
   <widgets xsi:type="model:Label" id="9163" x="160" y="81" width="161" text="Skill List" measuredWidth="161" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Table" id="9164" x="184" y="109" width="438" text="(w:50).Group ID,(w:150)=. Skill  v,(w:50). Class(s),(w:40)=. Skill Group v, (align:center). Actions  [{circled-plus}] [{find}]&#xA;1,(align:left).Listening \n  ശ്രദ്ധയോടെ കേൾക്കുക ,1-4, Literacy ,[{edit}]   [{circled-minus}]&#xA;2,(align:left).Speaking \n  സംസാരിക്കുക,1-4, Literacy,[{edit}]   [{circled-minus}]&#xA;" measuredWidth="438" measuredHeight="100" alternative="#eee">
+  <widgets xsi:type="model:Table" id="9164" x="152" y="111" width="617" text="(w:50).Group ID,(w:120)=. Skill  v,Evaluation Points ,(w:50). Class(s),(w:40)=. Skill Group v, (align:center). Actions  [{circled-plus}] [{find}]&#xA;1,(align:left).Listening \n  ശ്രദ്ധയോടെ കേൾക്കുക ,1. Listen Carefully  and respond[...]\n2. Partial listen[...] \n3. Not able to listen[...],1-4, Literacy ,[{edit}]   [{circled-minus}]&#xA;2,(align:left).Speaking \n  സംസാരിക്കുക,1. Speak spontaniously [...]\n2. Partially speak[...] \n3. Not able to speak[...],1-4, Literacy,[{edit}]   [{circled-minus}]&#xA;" measuredWidth="617" measuredHeight="128" alternative="#eee">
     <font/>
-    <items x="399" y="3" width="16" height="16" text=" "/>
-    <items x="418" y="3" width="16" height="16" text=" "/>
-    <items x="373" y="32" width="16" height="16" text=" "/>
-    <items x="398" y="32" width="16" height="16" text=" "/>
-    <items x="373" y="69" width="16" height="16" text=" "/>
-    <items x="398" y="69" width="16" height="16" text=" "/>
+    <items link="Admin%20Settings%20Skill%20Create.screen" x="575" y="3" width="16" height="16" text=" "/>
+    <items x="594" y="3" width="16" height="16" text=" "/>
+    <items x="363" y="25" width="9" height="15" text="..."/>
+    <items x="272" y="40" width="9" height="15" text="..."/>
+    <items x="299" y="55" width="9" height="15" text="..."/>
+    <items link="Admin%20Settings%20Skill%20Create.screen" x="549" y="39" width="16" height="16" text=" "/>
+    <items x="574" y="39" width="16" height="16" text=" "/>
+    <items x="317" y="76" width="9" height="15" text="..."/>
+    <items x="282" y="91" width="9" height="15" text="..."/>
+    <items x="300" y="106" width="9" height="15" text="..."/>
+    <items x="549" y="90" width="16" height="16" text=" "/>
+    <items x="574" y="90" width="16" height="16" text=" "/>
   </widgets>
   <hRuler/>
   <vRuler/>

@@ -92,30 +92,32 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="9240" x="288" y="190" measuredWidth="289" measuredHeight="169">
-    <widgets xsi:type="model:Window" id="9241" width="289" height="169" text="Create Skill Group - Add Language" measuredWidth="289" measuredHeight="169"/>
-    <widgets xsi:type="model:Combo" id="9242" x="110" y="64" width="95" text="English" measuredWidth="95" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="9243" x="27" y="64" width="134" text="Medium                         " measuredWidth="134" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="9244" x="27" y="92" text="Class(s)" measuredWidth="45" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Combo" id="9245" x="110" y="92" width="59" text="1-4" measuredWidth="59" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="9246" x="28" y="39" width="134" text="Group Name" measuredWidth="134" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:TextField" id="9247" x="110" y="36" width="155" text="Mathematics" measuredWidth="155" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Button" id="9248" x="72" y="121" text="Cancel{delete}" measuredWidth="72" measuredHeight="26" link="Admin%20Settings%20Skill%20Group%20Create.screen">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Button" id="9249" x="142" y="121" text="Save{save} " measuredWidth="64" measuredHeight="26" link="Admin%20Settings%20Skill%20Group%20Create.screen">
-      <font/>
+    <widgets xsi:type="model:WidgetGroup" id="9250" measuredWidth="289" measuredHeight="169">
+      <widgets xsi:type="model:Window" id="9241" width="289" height="169" text="Create Skill Group - Add Language" measuredWidth="289" measuredHeight="169"/>
+      <widgets xsi:type="model:Combo" id="9242" x="110" y="64" width="95" text="English" measuredWidth="95" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="9243" x="27" y="64" width="134" text="Medium                         " measuredWidth="134" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="9244" x="27" y="92" text="Class(s)" measuredWidth="45" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Combo" id="9245" x="110" y="92" width="59" text="1-4" measuredWidth="59" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="9246" x="28" y="39" width="134" text="Group Name" measuredWidth="134" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:TextField" id="9247" x="110" y="36" width="155" text="Mathematics" measuredWidth="155" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Button" id="9248" x="72" y="121" text="Cancel{delete}" measuredWidth="72" measuredHeight="26" link="Admin%20Settings%20Skill%20Group%20Create.screen">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Button" id="9249" x="142" y="121" text="Save{save} " measuredWidth="64" measuredHeight="26" link="Admin%20Settings%20Skill%20Group%20Create.screen">
+        <font/>
+      </widgets>
     </widgets>
   </widgets>
   <hRuler/>

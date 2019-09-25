@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
   <widgets xsi:type="model:Master" id="6" x="11" y="5" width="768" measuredWidth="768" measuredHeight="60">
-    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Navigation.screen#Navbar"/>
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Navigation.screen#Navbar"/>
     <overrides>
       <widgetChanges xsi:type="o:Insert" newIndex="6">
         <object xsi:type="model:WidgetGroup" id="2006" width="768">
@@ -9,7 +9,7 @@
           <widgets xsi:type="model:Label" id="4734" x="38" y="6" text="Student Master Plan" layoutParams="anchor-left|anchor-middle">
             <font size="18px"/>
           </widgets>
-          <widgets xsi:type="model:TextField" id="4735" x="358" y="9" width="145" text="~Search~" layoutParams="anchor-left|anchor-middle" skin="assets/Bootstrap/_text-input.svg">
+          <widgets xsi:type="model:TextField" id="4735" x="358" y="9" width="145" text="~Search~" layoutParams="anchor-left|anchor-middle" skin="../assets/Bootstrap/_text-input.svg">
             <font size="14px"/>
           </widgets>
           <widgets xsi:type="model:Icon" id="4736" y="4" width="25" icon="assets/gl-user (large)"/>
@@ -45,20 +45,16 @@
         <widgets xsi:type="model:Table" id="40" width="642" height="305" text="(w:30). RollNo , (w:100). Photo, (w:200). Name ,(w:100).   Current Level ,(w:100).  Actions&#xA;1,\n\n\n, Suku, Expert&#xA;2,\n\n\n, Syam, Novice&#xA;3,\n\n\n, Abdul , Apprentice&#xA;4,\n\n\n, Mahesh, Apprentice" measuredWidth="642" measuredHeight="305" selection="0" verticalScrollbar="true" background="#f3f3f3" horizontalLines="true" alternative="#f3f3f3">
           <font/>
         </widgets>
-        <widgets xsi:type="model:Image" id="4283" x="62" y="27" width="62" height="53" measuredWidth="62" measuredHeight="53" src="assets/Images/BoyFace.jpeg"/>
-        <widgets xsi:type="model:Image" id="4284" x="62" y="95" width="62" height="53" measuredWidth="62" measuredHeight="53" src="assets/Images/BoyFace.jpeg"/>
-        <widgets xsi:type="model:Image" id="4285" x="62" y="159" width="62" height="53" measuredWidth="62" measuredHeight="53" src="assets/Images/BoyFace.jpeg"/>
-        <widgets xsi:type="model:Image" id="4286" x="62" y="231" width="62" height="53" measuredWidth="62" measuredHeight="53" src="assets/Images/BoyFace.jpeg"/>
-        <widgets xsi:type="model:Icon" id="4287" x="467" y="32" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)" link="StudentDataEdit.screen"/>
+        <widgets xsi:type="model:Image" id="4283" x="62" y="27" width="62" height="53" measuredWidth="62" measuredHeight="53" src="../assets/Images/BoyFace.jpeg"/>
+        <widgets xsi:type="model:Image" id="4284" x="62" y="95" width="62" height="53" measuredWidth="62" measuredHeight="53" src="../assets/Images/BoyFace.jpeg"/>
+        <widgets xsi:type="model:Image" id="4285" x="62" y="159" width="62" height="53" measuredWidth="62" measuredHeight="53" src="../assets/Images/BoyFace.jpeg"/>
+        <widgets xsi:type="model:Image" id="4286" x="62" y="231" width="62" height="53" measuredWidth="62" measuredHeight="53" src="../assets/Images/BoyFace.jpeg"/>
         <widgets xsi:type="model:Icon" id="4288" x="511" y="33" measuredWidth="32" measuredHeight="32" icon="edit (large)" link="StudentDataEdit.screen"/>
         <widgets xsi:type="model:Icon" id="4289" x="556" y="34" measuredWidth="32" measuredHeight="32" icon="eye (large)" link="Student%20Profile.screen"/>
-        <widgets xsi:type="model:Icon" id="4292" x="476" y="105" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)"/>
         <widgets xsi:type="model:Icon" id="4293" x="520" y="106" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
         <widgets xsi:type="model:Icon" id="4294" x="565" y="107" measuredWidth="32" measuredHeight="32" icon="eye (large)"/>
-        <widgets xsi:type="model:Icon" id="4295" x="476" y="169" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)"/>
         <widgets xsi:type="model:Icon" id="4296" x="520" y="170" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
         <widgets xsi:type="model:Icon" id="4297" x="565" y="171" measuredWidth="32" measuredHeight="32" icon="eye (large)"/>
-        <widgets xsi:type="model:Icon" id="4298" x="476" y="241" measuredWidth="32" measuredHeight="32" icon="circled-plus (large)"/>
         <widgets xsi:type="model:Icon" id="4299" x="520" y="242" measuredWidth="32" measuredHeight="32" icon="edit (large)"/>
         <widgets xsi:type="model:Icon" id="4300" x="565" y="243" measuredWidth="32" measuredHeight="32" icon="eye (large)"/>
       </widgets>

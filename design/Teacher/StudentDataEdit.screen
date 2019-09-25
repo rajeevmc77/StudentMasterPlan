@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="6" x="11" y="5" width="789" measuredWidth="789" measuredHeight="60">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Navigation.screen#Navbar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="6">
+        <object xsi:type="model:WidgetGroup" id="2006" width="789">
+          <widgets xsi:type="model:Panel" id="4152" width="789" height="60" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+          <widgets xsi:type="model:Label" id="4153" x="38" y="6" text="Student Master Plan" layoutParams="anchor-left|anchor-middle">
+            <font size="18px"/>
+          </widgets>
+          <widgets xsi:type="model:TextField" id="4154" x="358" y="9" width="145" text="~Search~" layoutParams="anchor-left|anchor-middle" skin="../assets/Bootstrap/_text-input.svg">
+            <font size="14px"/>
+          </widgets>
+          <widgets xsi:type="model:Icon" id="4155" y="4" width="26" icon="assets/gl-user (large)"/>
+          <widgets xsi:type="model:Icon" id="4156" x="506" y="8" width="26" icon="find (large)"/>
+          <widgets xsi:type="model:Label" id="4157" x="600" y="13" width="146" text="Welcome Sh Ratheesh" textAlignment="Center" icon="user (small)">
+            <font size="12px"/>
+          </widgets>
+          <widgets xsi:type="model:Icon" id="4158" x="747" y="8" width="26" icon="desc (large)"/>
+          <widgets xsi:type="model:Icon" id="4159" x="552" y="7" width="36" icon="bell (large)"/>
+          <widgets xsi:type="model:WidgetGroup" id="4160" x="84" y="32">
+            <widgets xsi:type="model:Breadcrumbs" id="4161" text="Home,Students,Edit">
+              <font/>
+              <items text="Home"/>
+              <items link="TeacherHome.screen" text="Students"/>
+              <items text="Edit"/>
+            </widgets>
+          </widgets>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="25"/>
+      <widgetChanges xsi:type="o:Delete" ref="24"/>
+      <widgetChanges xsi:type="o:Delete" ref="28"/>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="19"/>
+      <widgetChanges xsi:type="o:Delete" ref="20"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="51" x="134" y="175" measuredWidth="668" measuredHeight="330">
+    <widgets xsi:type="model:Icon" id="43" x="605" measuredWidth="32" measuredHeight="32" icon="options (large)"/>
+    <widgets xsi:type="model:SearchField" id="47" x="536" y="2" text="Search" measuredWidth="68" measuredHeight="24">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="50" y="8" measuredWidth="668" measuredHeight="322">
+      <widgets xsi:type="model:WidgetGroup" id="3193" measuredWidth="668" measuredHeight="322">
+        <widgets xsi:type="model:TabbedPane" id="8" width="668" height="322" text="Language,Maths,Science, Social Science" measuredWidth="668" measuredHeight="322" selection="0">
+          <items x="10" y="0" width="74" height="27" text="Language"/>
+          <items x="84" y="0" width="54" height="27" text="Maths"/>
+          <items x="138" y="0" width="63" height="27" text="Science"/>
+          <items x="201" y="0" width="97" height="27" text="Social Science"/>
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Master" id="44" x="8" y="281" measuredWidth="318" measuredHeight="31">
+          <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button%20Group"/>
+          <overrides>
+            <widgets ref="3" text="&lt;-,1, 2, 3,4,5,6,7,8,...,->">
+              <items ref="@items.0" text="1"/>
+              <items ref="@items.1" text="2"/>
+              <items ref="@items.2" text="3"/>
+              <itemChanges xsi:type="o:Insert" newIndex="3">
+                <object xsi:type="model:Item" text="->"/>
+              </itemChanges>
+              <itemChanges xsi:type="o:Insert" newIndex="3">
+                <object xsi:type="model:Item" text="..."/>
+              </itemChanges>
+              <itemChanges xsi:type="o:Insert" newIndex="3">
+                <object xsi:type="model:Item" text="8"/>
+              </itemChanges>
+              <itemChanges xsi:type="o:Insert" newIndex="3">
+                <object xsi:type="model:Item" text="7"/>
+              </itemChanges>
+              <itemChanges xsi:type="o:Insert" newIndex="3">
+                <object xsi:type="model:Item" text="6"/>
+              </itemChanges>
+              <itemChanges xsi:type="o:Insert" newIndex="3">
+                <object xsi:type="model:Item" text="5"/>
+              </itemChanges>
+              <itemChanges xsi:type="o:Insert" newIndex="3">
+                <object xsi:type="model:Item" text="4"/>
+              </itemChanges>
+              <itemChanges xsi:type="o:Insert">
+                <object xsi:type="model:Item" text="&lt;-"/>
+              </itemChanges>
+            </widgets>
+          </overrides>
+        </widgets>
+        <widgets xsi:type="model:WidgetGroup" id="3192" x="442" y="285" measuredWidth="203" measuredHeight="34">
+          <widgets xsi:type="model:Master" id="45" x="56" measuredWidth="45" measuredHeight="34">
+            <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button"/>
+            <overrides>
+              <widgets ref="21" text="Save"/>
+            </overrides>
+          </widgets>
+          <widgets xsi:type="model:Master" id="46" measuredWidth="52" measuredHeight="34">
+            <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button"/>
+            <overrides>
+              <widgets ref="21" text="Reset"/>
+            </overrides>
+          </widgets>
+          <widgets xsi:type="model:Master" id="48" x="104" measuredWidth="47" measuredHeight="34">
+            <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button"/>
+            <overrides>
+              <widgets ref="21" text="Next"/>
+            </overrides>
+          </widgets>
+          <widgets xsi:type="model:Master" id="49" x="153" measuredWidth="50" measuredHeight="34" link="TeacherHome.screen">
+            <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button"/>
+            <overrides>
+              <widgets ref="21" text="Done"/>
+            </overrides>
+          </widgets>
+        </widgets>
+        <widgets xsi:type="model:WidgetGroup" id="3191" x="10" y="34" measuredWidth="640" measuredHeight="248">
+          <widgets xsi:type="model:Table" id="40" x="75" width="565" height="248" text="(w:30). , Expert \n , Apprentice,Novice&#xA;1, Can read Picture and answer \n qustions meaningfully \n  [x], Can say some sentences \n from the picture\n [],Need teacher support \n in reading  to identify words \n and sentences \n  []&#xA;2 , Can interpret the idea \n of the Cartoon \n  [x],  Can say some sentences \n about the cartoon \n [],  []&#xA;3 , Can read the text loudly \n with pronunciation \n voice modulation stress \n intonation facial expression \n and action \n  [], can identify sentences \n and read them out \n  [], []&#xA;&#xA;" measuredWidth="565" measuredHeight="248" selection="0" verticalScrollbar="true" background="#f3f3f3" horizontalLines="true" alternative="#f3f3f3">
+            <font/>
+          </widgets>
+          <widgets xsi:type="model:Table" id="3190" height="248" text="Assessment \n Zone&#xA;&#xA;&#xA;&#xA;&#xA;Reading" measuredWidth="78" measuredHeight="248" textAlignment="Center" alternative="#eee">
+            <font/>
+          </widgets>
+        </widgets>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="1934" x="135" y="58" measuredWidth="663" measuredHeight="118">
+    <widgets xsi:type="model:WidgetGroup" id="2297" measuredWidth="663" measuredHeight="118">
+      <widgets xsi:type="model:Panel" id="1935" width="663" height="118" measuredWidth="663" measuredHeight="118"/>
+      <widgets xsi:type="model:Image" id="1936" x="41" y="9" width="90" height="99" measuredWidth="90" measuredHeight="99" src="../assets/Images/BoyFace.jpeg"/>
+      <widgets xsi:type="model:Label" id="1937" x="153" y="16" text="Name : Suku" measuredWidth="73" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="1938" x="154" y="38" text="Class : 6  A" measuredWidth="62" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="1939" x="148" y="60" text="Prev.Level : Expert" measuredWidth="109" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Chart" id="1940" x="512" y="16" width="87" height="43" measuredWidth="87" measuredHeight="43" chartType="line"/>
+      <widgets xsi:type="model:Label" id="1941" x="463" y="16" text="Trend:" measuredWidth="42" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Group" id="1942" x="267" y="9" width="180" text="Assessment" measuredWidth="180" measuredHeight="100">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="1943" x="277" y="26" text="Period" measuredWidth="42" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:ProgressBar" id="1945" x="342" y="47" width="95" measuredWidth="95" measuredHeight="18"/>
+      <widgets xsi:type="model:Label" id="1946" x="277" y="44" text="Completed" measuredWidth="66" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="1949" x="461" y="76" width="184" text="Improvement Areas:  Language " measuredWidth="184" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="2295" x="12" y="11" measuredWidth="32" measuredHeight="32" icon="arrow-left (large)"/>
+      <widgets xsi:type="model:Icon" id="2296" x="625" y="10" measuredWidth="32" measuredHeight="32" icon="arrow-right (large)"/>
+      <widgets xsi:type="model:Combo" id="4130" x="343" y="23" text="June 2019 " measuredWidth="88" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Button" id="4131" x="291" y="72" text="{circled-plus} Assessment" measuredWidth="103" measuredHeight="26" link="StudentDataEdit%20Add%20New.screen">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2298" x="11" y="58" width="125" height="447" measuredWidth="125" measuredHeight="447"/>
+  <widgets xsi:type="model:Icon" id="3181" x="14" y="67" measuredWidth="32" measuredHeight="32" icon="table (large)"/>
+  <widgets xsi:type="model:Icon" id="3182" x="16" y="106" measuredWidth="32" measuredHeight="32" icon="list-bullet (large)"/>
+  <widgets xsi:type="model:Icon" id="3183" x="16" y="146" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Icon" id="3184" x="15" y="181" measuredWidth="32" measuredHeight="32" icon="bar-chart (large)"/>
+  <widgets xsi:type="model:Label" id="3185" x="50" y="73" text="Dashboard" measuredWidth="65" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3186" x="53" y="111" text="Students" measuredWidth="55" measuredHeight="23" link="TeacherHome.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3187" x="53" y="151" text="Profile" measuredWidth="43" measuredHeight="23" link="Student%20Profile.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3188" x="53" y="185" text="Reports" measuredWidth="50" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

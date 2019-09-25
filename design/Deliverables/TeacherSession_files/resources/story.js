@@ -23,15 +23,6 @@ var story = {
    "links": [
     {
      "rect": [
-      593,
-      148,
-      625,
-      180
-     ],
-     "page": 2
-    },
-    {
-     "rect": [
       637,
       149,
       669,
@@ -46,7 +37,16 @@ var story = {
       714,
       182
      ],
-     "page": 3
+     "page": 4
+    },
+    {
+     "rect": [
+      42,
+      146,
+      85,
+      169
+     ],
+     "page": 4
     }
    ],
    "title": "TeacherHome",
@@ -56,8 +56,99 @@ var story = {
    "image": "StudentDataEdit.png",
    "image2x": "StudentDataEdit@2x.png",
    "width": 791,
-   "links": [],
+   "links": [
+    {
+     "rect": [
+      137,
+      32,
+      187,
+      53
+     ],
+     "page": 1
+    },
+    {
+     "rect": [
+      718,
+      463,
+      768,
+      497
+     ],
+     "page": 1
+    },
+    {
+     "rect": [
+      415,
+      125,
+      518,
+      151
+     ],
+     "page": 3
+    },
+    {
+     "rect": [
+      42,
+      106,
+      97,
+      129
+     ],
+     "page": 1
+    },
+    {
+     "rect": [
+      42,
+      146,
+      85,
+      169
+     ],
+     "page": 4
+    }
+   ],
    "title": "StudentDataEdit",
+   "height": 500
+  },
+  {
+   "image": "StudentDataEdit Add New.png",
+   "image2x": "StudentDataEdit Add New@2x.png",
+   "width": 791,
+   "links": [
+    {
+     "rect": [
+      137,
+      32,
+      187,
+      53
+     ],
+     "page": 1
+    },
+    {
+     "rect": [
+      718,
+      463,
+      768,
+      497
+     ],
+     "page": 1
+    },
+    {
+     "rect": [
+      42,
+      106,
+      97,
+      129
+     ],
+     "page": 1
+    },
+    {
+     "rect": [
+      42,
+      146,
+      85,
+      169
+     ],
+     "page": 4
+    }
+   ],
+   "title": "StudentDataEdit Add New",
    "height": 500
   },
   {
@@ -71,5 +162,5 @@ var story = {
  ],
  "resolutions": [2],
  "title": "TeacherSession",
- "highlightLinks": false
+ "highlightLinks": true
 }

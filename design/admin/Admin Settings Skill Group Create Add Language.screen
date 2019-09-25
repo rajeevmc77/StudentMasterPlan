@@ -5,26 +5,25 @@
     <overrides>
       <widgetChanges xsi:type="o:Insert" newIndex="6">
         <object xsi:type="model:WidgetGroup" id="2006" width="768">
-          <widgets xsi:type="model:Panel" id="9225" width="768" height="60" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
-          <widgets xsi:type="model:Label" id="9226" x="38" y="6" text="Student Master Plan" layoutParams="anchor-left|anchor-middle">
+          <widgets xsi:type="model:Panel" id="9281" width="768" height="60" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+          <widgets xsi:type="model:Label" id="9282" x="38" y="6" text="Student Master Plan" layoutParams="anchor-left|anchor-middle">
             <font size="18px"/>
           </widgets>
-          <widgets xsi:type="model:TextField" id="9227" x="358" y="9" width="145" text="~Search~" layoutParams="anchor-left|anchor-middle" skin="../assets/Bootstrap/_text-input.svg">
+          <widgets xsi:type="model:TextField" id="9283" x="358" y="9" width="145" text="~Search~" layoutParams="anchor-left|anchor-middle" skin="../assets/Bootstrap/_text-input.svg">
             <font size="14px"/>
           </widgets>
-          <widgets xsi:type="model:Icon" id="9228" y="4" width="25" icon="assets/gl-user (large)"/>
-          <widgets xsi:type="model:Icon" id="9229" x="505" y="8" width="25" icon="find (large)"/>
-          <widgets xsi:type="model:Label" id="9230" x="584" y="13" width="142" text="Welcome Sh Krishna" textAlignment="Center" icon="user (small)">
+          <widgets xsi:type="model:Icon" id="9284" y="4" width="25" icon="assets/gl-user (large)"/>
+          <widgets xsi:type="model:Icon" id="9285" x="505" y="8" width="25" icon="find (large)"/>
+          <widgets xsi:type="model:Label" id="9286" x="584" y="13" width="142" text="Welcome Sh Krishna" textAlignment="Center" icon="user (small)">
             <font size="12px"/>
           </widgets>
-          <widgets xsi:type="model:Icon" id="9231" x="727" y="8" width="25" icon="desc (large)"/>
-          <widgets xsi:type="model:Icon" id="9232" x="540" y="7" width="35" icon="bell (large)"/>
-          <widgets xsi:type="model:WidgetGroup" id="9233" x="125" y="27">
-            <widgets xsi:type="model:Breadcrumbs" id="9234" text="Home,Settings,Skill Group">
+          <widgets xsi:type="model:Icon" id="9287" x="727" y="8" width="25" icon="desc (large)"/>
+          <widgets xsi:type="model:Icon" id="9288" x="540" y="7" width="35" icon="bell (large)"/>
+          <widgets xsi:type="model:WidgetGroup" id="9289" x="125" y="27">
+            <widgets xsi:type="model:Breadcrumbs" id="9290" text="Home,Skill Group">
               <font/>
-              <items text="Home"/>
-              <items text="Settings"/>
-              <items link="Admin%20Settings%20Skill%20Group%20List.screen" text="Skill Group"/>
+              <items link="Admin%20Dashboard.screen" text="Home"/>
+              <items text="Skill Group"/>
             </widgets>
           </widgets>
         </object>
@@ -44,9 +43,10 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="4643" x="137" y="61" width="642" height="365" measuredWidth="642" measuredHeight="365"/>
   <widgets xsi:type="model:Icon" id="8954" x="13" y="111" width="26" height="26" measuredWidth="26" measuredHeight="26" icon="options (large)"/>
-  <widgets xsi:type="model:Table" id="8955" x="40" y="109" height="132" text="[-] Settings&#xA;  [+] [Skill Group]&#xA;  " measuredWidth="94" measuredHeight="132" alternative="#eee" verticalLines="false" header="false">
+  <widgets xsi:type="model:Table" id="8955" x="40" y="109" width="98" height="132" text="[-] Settings&#xA;    [Skill Group]&#xA;    [Skill]&#xA;  " measuredWidth="98" measuredHeight="132" alternative="#eee" verticalLines="false" header="false">
     <font/>
-    <items link="Admin%20Settings%20Skill%20Group%20List.screen" x="30" y="25" width="58" height="16" text="Skill Group"/>
+    <items link="Admin%20Settings%20Skill%20Group%20List.screen" x="17" y="25" width="58" height="15" text="Skill Group"/>
+    <items link="Admin%20Settings%20Skill%20List.screen" x="17" y="46" width="21" height="15" text="Skill"/>
   </widgets>
   <widgets xsi:type="model:Label" id="9163" x="160" y="81" width="161" text="Skill Groups" measuredWidth="161" measuredHeight="23">
     <font/>
@@ -112,7 +112,7 @@
       <widgets xsi:type="model:TextField" id="9247" x="110" y="36" width="155" text="Mathematics" measuredWidth="155" measuredHeight="23">
         <font/>
       </widgets>
-      <widgets xsi:type="model:Button" id="9248" x="72" y="121" text="Cancel{delete}" measuredWidth="72" measuredHeight="26" link="Admin%20Settings%20Skill%20Group%20Create.screen">
+      <widgets xsi:type="model:Button" id="9248" x="72" y="121" text="Cancel{delete}" measuredWidth="72" measuredHeight="26">
         <font/>
       </widgets>
       <widgets xsi:type="model:Button" id="9249" x="142" y="121" text="Save{save} " measuredWidth="64" measuredHeight="26" link="Admin%20Settings%20Skill%20Group%20Create.screen">

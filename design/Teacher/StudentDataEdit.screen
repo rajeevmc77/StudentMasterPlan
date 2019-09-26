@@ -44,11 +44,13 @@
     </widgets>
     <widgets xsi:type="model:WidgetGroup" id="50" y="8" measuredWidth="668" measuredHeight="322">
       <widgets xsi:type="model:WidgetGroup" id="3193" measuredWidth="668" measuredHeight="322">
-        <widgets xsi:type="model:TabbedPane" id="8" width="668" height="322" text="Language,Maths,Science, Social Science" measuredWidth="668" measuredHeight="322" selection="0">
+        <widgets xsi:type="model:TabbedPane" id="8" width="668" height="322" text="Language,Maths,Science, Social Awareness, Scientific Temper, Special Skills" measuredWidth="668" measuredHeight="322" selection="0">
           <items x="10" y="0" width="74" height="27" text="Language"/>
           <items x="84" y="0" width="54" height="27" text="Maths"/>
           <items x="138" y="0" width="63" height="27" text="Science"/>
-          <items x="201" y="0" width="97" height="27" text="Social Science"/>
+          <items x="201" y="0" width="114" height="27" text="Social Awareness"/>
+          <items x="315" y="0" width="117" height="27" text="Scientific Temper"/>
+          <items x="432" y="0" width="88" height="27" text="Special Skills"/>
           <font/>
         </widgets>
         <widgets xsi:type="model:Master" id="44" x="8" y="281" measuredWidth="318" measuredHeight="31">

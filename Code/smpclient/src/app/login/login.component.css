@@ -1,0 +1,92 @@
+:host {
+  display: block;
+}
+
+.input-underline {
+  background: 0 0;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  border-radius: 0;
+}
+
+.input-underline:focus {
+  border-bottom: 2px solid #fff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.rounded-btn {
+  border-radius: 50px;
+  color: rgba(161, 16, 16, 0.8);
+  background: #fff;
+  border: 2px solid rgba(209, 25, 25, 0.8);
+  font-size: 18px;
+  line-height: 40px;
+  padding: 0 25px;
+}
+
+.rounded-btn:hover,
+.rounded-btn:focus,
+.rounded-btn:active,
+.rounded-btn:visited {
+  color: #181717;
+  border: 2px solid #250101;
+  outline: none;
+}
+
+h1 {
+  font-weight: 50;
+  margin: 20px;
+  font-size: 24px;
+  color: rgba(172, 13, 137, 0.7);
+}
+
+h1 small {
+  color: rgba(172, 13, 137, 0.7);
+}
+
+.form-group {
+  padding: 8px 0;
+}
+
+.form-group input::-webkit-input-placeholder {
+  color: rgba(22, 2, 2, 0.6) !important;
+}
+
+.form-group input:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(20, 1, 1, 0.6) !important;
+}
+
+.form-group input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(20, 1, 1, 0.6) !important;
+}
+
+.form-group input:-ms-input-placeholder {
+  color: rgba(8, 0, 0, 0.6) !important;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  cursor: pointer;
+}
+
+main .card .info {
+  padding: 1rem;
+}
+
+main .card img {
+  width: 100%;
+}
+
+main .card .desc {
+  color: gray;
+}
+/*# sourceMappingURL=login.component.css.map */
